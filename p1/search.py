@@ -1,6 +1,6 @@
 import sys
-txt_file = sys.argv[1]
-graph_txt = open(txt_file, "r")
+#txt_file = sys.argv[1]
+graph_txt = open("graph.txt", "r")
 graph = {}
 adjacents = {}
 def fill_edge(row):

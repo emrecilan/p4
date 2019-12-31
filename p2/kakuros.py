@@ -1,6 +1,7 @@
 from constraint import *
-
-valueTxt = open("kakuro_input.txt", "r")
+import sys
+input_file = sys.argv[1]
+valueTxt = open(input_file, "r")
 ListValue = list(valueTxt)
 row_value =  []
 column_value= []
